@@ -22,8 +22,8 @@ const UpdateStudent = () => {
 
   return (
     <div className='d-flex vh-100 bg-primary justify-content-center align-items-center'>
-        <div className='w-50 bg-white rounded p-3'>
-            <form onSubmit={handleSubmit}>
+        <div className='w-50 bg-dark text-white rounded p-3'>
+            <form onSubmit={handleSubmit}className='bg-dark text-white'>
                 <h2>Update Student</h2>
                 <div className='mb-2'>
                     <label htmlFor="">Name</label>
