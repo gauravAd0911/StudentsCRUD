@@ -26,12 +26,12 @@ const Studentn = () => {
 
   return (
     <div className='d-flex vh-100 bg-success justify-content-center align-items-center'>
-        <div className='w-50 bg-white rounded p-3'>
+        <div className='w-50 bg-dark text-white rounded p-3'>
             <Link to='/create' className='btn btn-success'>ADD +</Link >
             <table className='table'>
                 <thead>
                     <tr>
-                        <th>ID</th>
+                        
                         <th>Name</th>
                         <th>Email</th>
                         <th>Actions</th>
@@ -41,7 +41,7 @@ const Studentn = () => {
                     {
                         student.map((data,i)=>(
                             <tr key={i}>
-                                <td>{data.ID}</td>
+                                
                                 <td>{data.Name}</td>
                                 <td>{data.Email}</td>
                                 <td>
